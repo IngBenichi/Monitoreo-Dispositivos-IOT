@@ -138,15 +138,6 @@ export function DashboardLayout({ children }: DashboardLayoutProps) {
 								className="pl-10 bg-slate-800/50 border border-purple-500/30 text-purple-100 placeholder:text-purple-400/40 focus:border-purple-400/60 focus:shadow-lg focus:shadow-purple-500/20"
 							/>
 						</div>
-						<div className="flex items-center gap-x-4 lg:gap-x-6">
-							<Button
-								variant="ghost"
-								size="sm"
-								className="relative text-purple-300 hover:bg-purple-500/20"
-							>
-								<User className="h-5 w-5" />
-							</Button>
-						</div>
 					</div>
 				</header>
 
