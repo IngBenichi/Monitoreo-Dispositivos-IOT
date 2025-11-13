@@ -130,14 +130,11 @@ export function DashboardLayout({ children }: DashboardLayoutProps) {
 						<Menu className="h-5 w-5" />
 					</Button>
 
-					<div className="flex flex-1 gap-x-4 self-stretch lg:gap-x-6">
+					<div className="flex flex-1 gap-x-4 items-center justify-center self-stretch lg:gap-x-6 py-2">
 						<div className="relative flex flex-1 items-center">
-							<Search className="absolute left-3 h-4 w-4 text-purple-400/50" />
-							<Input
-								placeholder="Buscar dispositivos, alertas..."
-								className="pl-10 bg-slate-800/50 border border-purple-500/30 text-purple-100 placeholder:text-purple-400/40 focus:border-purple-400/60 focus:shadow-lg focus:shadow-purple-500/20"
-							/>
+							Coding with ❤️ by <strong className='text-[#0071a4] ml-2'>ARC4M</strong>
 						</div>
+						<img src="/arc4m.svg" alt="Logotipo de ARC4M" className='size-24' />
 					</div>
 				</header>
 
